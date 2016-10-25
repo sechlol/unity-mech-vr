@@ -8,7 +8,7 @@ public class Manager : MonoBehaviour {
     public Transform RightIK;
     public Transform LeftIK;
     public Transform LookAt;
-    
+    public float DistanceIKMultiplier = 0;
 
     public Transform Visor;
     public Transform LeftStick;
@@ -36,8 +36,14 @@ public class Manager : MonoBehaviour {
         Mech.position = Visor.position + delta;
         LookAt.position = Visor.forward + MechHandle.position;
 
-       // Debug.DrawLine(MechHandle.position, LookAt.position, Color.red);
-      //  Debug.DrawRay(Visor.position, Visor.forward * 2, Color.green);
+        RightIK.position = RightStick.position + RightStick.forward * DistanceIKMultiplier;
+        RightIK.rotation = RightStick.rotation;
+
+        LeftIK.position = LeftStick.position + LeftStick.forward * DistanceIKMultiplier;
+        LeftIK.rotation = LeftStick.rotation;
+
+        // Debug.DrawLine(MechHandle.position, LookAt.position, Color.red);
+        //  Debug.DrawRay(Visor.position, Visor.forward * 2, Color.green);
 
 
     }

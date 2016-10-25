@@ -94,18 +94,31 @@ ModelImporter:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
     resampleCurves: 1
-    optimizeGameObjects: 0
+    optimizeGameObjects: 1
     motionNodeName: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
-    extraExposedTransformPaths: []
+    extraExposedTransformPaths:
+    - PELVIS
+    - BODY
+    - LEFT_HAND
+    - LEFT_LEG
+    - LEFT_1_CLAW
+    - LEFT_2_CLAW
+    - LEFT_FORE_ARM
+    - LEFT_UPPER_ARM
+    - RIGHT_1_CLAW
+    - RIGHT_FORE_ARM
+    - RIGHT_HAND
+    - RIGHT_LEG
+    - RIGHT_UPPER_ARM
     clipAnimations: []
     isReadable: 1
   meshes:
@@ -141,7 +154,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    rootMotionBoneName: 
+    rootMotionBoneName: PELVIS
     hasTranslationDoF: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 2
