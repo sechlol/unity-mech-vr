@@ -13,13 +13,13 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: RightFoot
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -484,8 +484,8 @@ AnimatorStateMachine:
     m_State: {fileID: 110255188}
     m_Position: {x: 396, y: 216, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 1102000013161043612}
-    m_Position: {x: 48, y: 72, z: 0}
+    m_State: {fileID: 1102000012413010932}
+    m_Position: {x: -48, y: 72, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -495,26 +495,26 @@ AnimatorStateMachine:
   m_EntryPosition: {x: 60, y: 144, z: 0}
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
-  m_DefaultState: {fileID: 110280714}
---- !u!1102 &1102000013161043612
+  m_DefaultState: {fileID: 1102000012413010932}
+--- !u!1102 &1102000012413010932
 AnimatorState:
   serializedVersion: 5
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Empty
+  m_Name: Stationary_idle
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
-  m_IKOnFeet: 1
+  m_IKOnFeet: 0
   m_WriteDefaultValues: 1
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
-  m_Motion: {fileID: 0}
+  m_Motion: {fileID: 7400000, guid: 293a7bb675357df478e2986ee03eca29, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
