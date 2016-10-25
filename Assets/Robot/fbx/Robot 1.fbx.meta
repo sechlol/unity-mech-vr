@@ -1,0 +1,242 @@
+fileFormatVersion: 2
+guid: 634e6def558c23c49bb216d7ab555a0d
+timeCreated: 1463076276
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Head
+    100004: Hips
+    100006: LeftArm
+    100008: LeftFoot
+    100010: LeftForeArm
+    100012: LeftHand
+    100014: LeftHandIndex1
+    100016: LeftHandIndex2
+    100018: LeftHandIndex3
+    100020: LeftHandIndex4
+    100022: LeftHandIndex4_end
+    100024: LeftHandThumb1
+    100026: LeftHandThumb2
+    100028: LeftHandThumb3
+    100030: LeftHandThumb4
+    100032: LeftHandThumb4_end
+    100034: LeftLeg
+    100036: LeftShoulder
+    100038: LeftToe_End
+    100040: LeftToe_End_end
+    100042: LeftToeBase
+    100044: LeftUpLeg
+    100046: mixamorig:HeadTop_End
+    100048: mixamorig:HeadTop_End_end
+    100050: Neck
+    100052: RightArm
+    100054: RightFoot
+    100056: RightForeArm
+    100058: RightHand
+    100060: RightHandIndex1
+    100062: RightHandIndex2
+    100064: RightHandIndex3
+    100066: RightHandIndex4
+    100068: RightHandIndex4_end
+    100070: RightHandThumb1
+    100072: RightHandThumb2
+    100074: RightHandThumb3
+    100076: RightHandThumb4
+    100078: RightHandThumb4_end
+    100080: RightLeg
+    100082: RightShoulder
+    100084: RightToe_End
+    100086: RightToe_End_end
+    100088: RightToeBase
+    100090: RightUpLeg
+    100092: robo4
+    100094: //RootNode
+    100096: Spine
+    100098: Spine1
+    100100: Spine2
+    400000: Armature
+    400002: Head
+    400004: Hips
+    400006: LeftArm
+    400008: LeftFoot
+    400010: LeftForeArm
+    400012: LeftHand
+    400014: LeftHandIndex1
+    400016: LeftHandIndex2
+    400018: LeftHandIndex3
+    400020: LeftHandIndex4
+    400022: LeftHandIndex4_end
+    400024: LeftHandThumb1
+    400026: LeftHandThumb2
+    400028: LeftHandThumb3
+    400030: LeftHandThumb4
+    400032: LeftHandThumb4_end
+    400034: LeftLeg
+    400036: LeftShoulder
+    400038: LeftToe_End
+    400040: LeftToe_End_end
+    400042: LeftToeBase
+    400044: LeftUpLeg
+    400046: mixamorig:HeadTop_End
+    400048: mixamorig:HeadTop_End_end
+    400050: Neck
+    400052: RightArm
+    400054: RightFoot
+    400056: RightForeArm
+    400058: RightHand
+    400060: RightHandIndex1
+    400062: RightHandIndex2
+    400064: RightHandIndex3
+    400066: RightHandIndex4
+    400068: RightHandIndex4_end
+    400070: RightHandThumb1
+    400072: RightHandThumb2
+    400074: RightHandThumb3
+    400076: RightHandThumb4
+    400078: RightHandThumb4_end
+    400080: RightLeg
+    400082: RightShoulder
+    400084: RightToe_End
+    400086: RightToe_End_end
+    400088: RightToeBase
+    400090: RightUpLeg
+    400092: robo4
+    400094: //RootNode
+    400096: Spine
+    400098: Spine1
+    400100: Spine2
+    4300000: robo4
+    7400000: Armature|Armature|mixamo.com|Layer0
+    7400002: Armature|chest|Default Take|Layer0
+    7400004: Armature|f_index_01_L|Default Take|Layer0
+    7400006: Armature|f_index_01_R|Default Take|Layer0
+    7400008: Armature|f_index_02_L|Default Take|Layer0
+    7400010: Armature|f_index_02_R|Default Take|Layer0
+    7400012: Armature|f_index_03_L|Default Take|Layer0
+    7400014: Armature|f_index_03_R|Default Take|Layer0
+    7400016: Armature|f_middle_01_L|Default Take|Layer0
+    7400018: Armature|f_middle_01_R|Default Take|Layer0
+    7400020: Armature|f_middle_02_L|Default Take|Layer0
+    7400022: Armature|f_middle_02_R|Default Take|Layer0
+    7400024: Armature|f_middle_03_L|Default Take|Layer0
+    7400026: Armature|f_middle_03_R|Default Take|Layer0
+    7400028: Armature|f_pinky_01_L|Default Take|Layer0
+    7400030: Armature|f_pinky_01_R|Default Take|Layer0
+    7400032: Armature|f_pinky_02_L|Default Take|Layer0
+    7400034: Armature|f_pinky_02_R|Default Take|Layer0
+    7400036: Armature|f_pinky_03_L|Default Take|Layer0
+    7400038: Armature|f_pinky_03_R|Default Take|Layer0
+    7400040: Armature|f_ring_01_L|Default Take|Layer0
+    7400042: Armature|f_ring_01_R|Default Take|Layer0
+    7400044: Armature|f_ring_02_L|Default Take|Layer0
+    7400046: Armature|f_ring_02_R|Default Take|Layer0
+    7400048: Armature|f_ring_03_L|Default Take|Layer0
+    7400050: Armature|f_ring_03_R|Default Take|Layer0
+    7400052: Armature|foot_L|Default Take|Layer0
+    7400054: Armature|foot_R|Default Take|Layer0
+    7400056: Armature|forearm_L|Default Take|Layer0
+    7400058: Armature|forearm_R|Default Take|Layer0
+    7400060: Armature|hand_L|Default Take|Layer0
+    7400062: Armature|hand_R|Default Take|Layer0
+    7400064: Armature|head|Default Take|Layer0
+    7400066: Armature|heel_02_L|Default Take|Layer0
+    7400068: Armature|heel_02_R|Default Take|Layer0
+    7400070: Armature|heel_L|Default Take|Layer0
+    7400072: Armature|heel_R|Default Take|Layer0
+    7400074: Armature|hips|Default Take|Layer0
+    7400076: Armature|neck|Default Take|Layer0
+    7400078: Armature|palm_01_L|Default Take|Layer0
+    7400080: Armature|palm_01_R|Default Take|Layer0
+    7400082: Armature|palm_02_L|Default Take|Layer0
+    7400084: Armature|palm_02_R|Default Take|Layer0
+    7400086: Armature|palm_03_L|Default Take|Layer0
+    7400088: Armature|palm_03_R|Default Take|Layer0
+    7400090: Armature|palm_04_L|Default Take|Layer0
+    7400092: Armature|palm_04_R|Default Take|Layer0
+    7400094: Armature|robo4_bone|Default Take|Layer0
+    7400096: Armature|shin_L|Default Take|Layer0
+    7400098: Armature|shin_R|Default Take|Layer0
+    7400100: Armature|shoulder_L|Default Take|Layer0
+    7400102: Armature|shoulder_R|Default Take|Layer0
+    7400104: Armature|spine|Default Take|Layer0
+    7400106: Armature|thigh_L|Default Take|Layer0
+    7400108: Armature|thigh_R|Default Take|Layer0
+    7400110: Armature|thumb_01_L|Default Take|Layer0
+    7400112: Armature|thumb_01_R|Default Take|Layer0
+    7400114: Armature|thumb_02_L|Default Take|Layer0
+    7400116: Armature|thumb_02_R|Default Take|Layer0
+    7400118: Armature|thumb_03_L|Default Take|Layer0
+    7400120: Armature|thumb_03_R|Default Take|Layer0
+    7400122: Armature|toe_L|Default Take|Layer0
+    7400124: Armature|toe_R|Default Take|Layer0
+    7400126: Armature|upper_arm_L|Default Take|Layer0
+    7400128: Armature|upper_arm_R|Default Take|Layer0
+    7400130: mixamo.com
+    9500000: //RootNode
+    13700000: robo4
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
