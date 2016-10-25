@@ -14,7 +14,9 @@ public class Missile : MonoBehaviour {
     private Rigidbody _body;
 
     void Start() {
+        _body = GetComponent<Rigidbody>();
         _autoDestroy = StartCoroutine(AutoDestroy(AutodestroyTime));
+        _body.velocity = transform.forward * Speed;
     }
 
     void FixedUpdate(){
@@ -41,7 +43,7 @@ public class Missile : MonoBehaviour {
                 body.AddExplosionForce(ExplosionForce, point, ExplosionRadius);
         }
 
-        GameObject expl = Instantiate(ExplosionPrefab, transform.position, transform.rotation) as GameObject;
+        GameObject expl = Instantiate(ExplosionPrefab, transform.position, Quaternion.identity) as GameObject;
         Destroy(expl, 5f);
         Destroy(gameObject);
     }

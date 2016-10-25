@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18053588, g: 0.22601774, b: 0.30718702, a: 1}
+  m_IndirectSpecularColor: {r: 0.18053626, g: 0.2260185, b: 0.30718803, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -321,7 +321,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 21630832}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: f_index.03.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -351,7 +351,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 27541175}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: f_ring.01.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -702,8 +702,8 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 44811173}
-  m_Layer: 0
-  m_Name: RClaw
+  m_Layer: 10
+  m_Name: RSupport
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -830,7 +830,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 55724030}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: palm.01.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -957,7 +957,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 67450931}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: f_middle.02.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1497,8 +1497,8 @@ GameObject:
   - 23: {fileID: 90840998}
   - 95: {fileID: 90840999}
   - 114: {fileID: 90841001}
-  m_Layer: 0
-  m_Name: Sphere
+  m_Layer: 10
+  m_Name: LClaw
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1828,7 +1828,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 107259897}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: thumb.03.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2112,7 +2112,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 143536497}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ForeArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2333,7 +2333,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 156180163}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: palm.04.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2871,7 +2871,7 @@ GameObject:
   - 4: {fileID: 208234384}
   - 33: {fileID: 208234386}
   - 23: {fileID: 208234385}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: LEFT_HAND
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3571,7 +3571,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 240192151}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: thumb.03.L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3696,7 +3696,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 247745057}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: palm.03.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4993,7 +4993,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 336193564}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: f_middle.03.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5437,7 +5437,7 @@ GameObject:
   - 4: {fileID: 370769022}
   - 198: {fileID: 370769024}
   - 199: {fileID: 370769023}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Sparks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5510,7 +5510,7 @@ ParticleSystem:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 370769021}
   serializedVersion: 4
-  lengthInSec: 5
+  lengthInSec: 0.1
   startDelay:
     scalar: 0
     maxCurve:
@@ -5547,13 +5547,13 @@ ParticleSystem:
       m_RotationOrder: 4
     minMaxState: 0
   speed: 1
-  looping: 1
+  looping: 0
   prewarm: 0
   playOnAwake: 0
   moveWithTransform: 0
   autoRandomSeed: 1
   scalingMode: 2
-  randomSeed: 1158511175
+  randomSeed: -964687324
   InitialModule:
     serializedVersion: 2
     enabled: 1
@@ -7226,7 +7226,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 372932456}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: palm.04.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7700,7 +7700,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 408999218}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: f_index.02.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7857,7 +7857,7 @@ GameObject:
   - 4: {fileID: 415401488}
   - 33: {fileID: 415401490}
   - 23: {fileID: 415401489}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: FORE_ARM
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8740,6 +8740,134 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 491309990}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!43 &493186119
+Mesh:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  serializedVersion: 8
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 24
+    topology: 0
+    firstVertex: 0
+    vertexCount: 8
+    localAABB:
+      m_Center: {x: 0, y: 0.01, z: 0}
+      m_Extent: {x: 1.65, y: 0, z: 1.275}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexBuffer: 000004000100010004000500010005000200020005000600020006000300030006000700030007000000000007000400
+  m_Skin: []
+  m_VertexData:
+    m_CurrentChannels: 13
+    m_VertexCount: 8
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 28
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 288
+    _typelessdata: 0000c03f0ad7233c0000903f000000000000803f0000803f0000803f00000000000000000000c03f0ad7233c000090bf000000000000803f0000803f0000803f0000803f000000000000c0bf0ad7233c000090bf000000000000803f0000803f0000803f00000000000000000000c0bf0ad7233c0000903f000000000000803f0000803f0000803f0000803f000000003333d33f0ad7233c3333a33f000000000000803f0000803f00000000000000000000803f3333d33f0ad7233c3333a3bf000000000000803f0000803f000000000000803f0000803f3333d3bf0ad7233c3333a3bf000000000000803f0000803f00000000000000000000803f3333d3bf0ad7233c3333a33f000000000000803f0000803f000000000000803f0000803f
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 0, y: 0.01, z: 0}
+    m_Extent: {x: 1.65, y: 0, z: 1.275}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshOptimized: 0
 --- !u!1 &494043608
 GameObject:
   m_ObjectHideFlags: 0
@@ -9035,7 +9163,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 523975342}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: forearm.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9067,7 +9195,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 525371272}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: f_middle.03.L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10041,7 +10169,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 574429295}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: hand.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10170,7 +10298,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 582104026}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: f_index.03.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10203,7 +10331,7 @@ GameObject:
   - 4: {fileID: 593719696}
   - 33: {fileID: 593719698}
   - 23: {fileID: 593719697}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: LEFT_2_CLAW
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10611,12 +10739,12 @@ MonoBehaviour:
   LeftIK: {fileID: 284555536}
   LookAt: {fileID: 883599035}
   DistanceIKMultiplier: 0
-  RotateBodyWithVisor: 0
+  RotateBodyWithVisor: 1
   Visor: {fileID: 1611670790}
   LeftStick: {fileID: 30106855}
   RightStick: {fileID: 1634360527}
-  RightClaw: {fileID: 0}
-  LeftClaw: {fileID: 0}
+  RightClaw: {fileID: 1787520544}
+  LeftClaw: {fileID: 90841001}
 --- !u!4 &626872372
 Transform:
   m_ObjectHideFlags: 0
@@ -10639,7 +10767,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 654852623}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: f_index.02.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10670,7 +10798,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 665452823}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: palm.01.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10962,7 +11090,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 683472857}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: f_middle.01.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10984,134 +11112,6 @@ Transform:
   - {fileID: 67450931}
   m_Father: {fileID: 1881127212}
   m_RootOrder: 0
---- !u!43 &691627356
-Mesh:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: 
-  serializedVersion: 8
-  m_SubMeshes:
-  - serializedVersion: 2
-    firstByte: 0
-    indexCount: 24
-    topology: 0
-    firstVertex: 0
-    vertexCount: 8
-    localAABB:
-      m_Center: {x: 0, y: 0.01, z: 0}
-      m_Extent: {x: 1.65, y: 0, z: 1.275}
-  m_Shapes:
-    vertices: []
-    shapes: []
-    channels: []
-    fullWeights: []
-  m_BindPose: []
-  m_BoneNameHashes: 
-  m_RootBoneNameHash: 0
-  m_MeshCompression: 0
-  m_IsReadable: 1
-  m_KeepVertices: 1
-  m_KeepIndices: 1
-  m_IndexBuffer: 000004000100010004000500010005000200020005000600020006000300030006000700030007000000000007000400
-  m_Skin: []
-  m_VertexData:
-    m_CurrentChannels: 13
-    m_VertexCount: 8
-    m_Channels:
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 12
-      format: 0
-      dimension: 4
-    - stream: 0
-      offset: 28
-      format: 0
-      dimension: 2
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    m_DataSize: 288
-    _typelessdata: 0000c03f0ad7233c0000903f000000000000803f0000803f0000803f00000000000000000000c03f0ad7233c000090bf000000000000803f0000803f0000803f0000803f000000000000c0bf0ad7233c000090bf000000000000803f0000803f0000803f00000000000000000000c0bf0ad7233c0000903f000000000000803f0000803f0000803f0000803f000000003333d33f0ad7233c3333a33f000000000000803f0000803f00000000000000000000803f3333d33f0ad7233c3333a3bf000000000000803f0000803f000000000000803f0000803f3333d3bf0ad7233c3333a3bf000000000000803f0000803f00000000000000000000803f3333d3bf0ad7233c3333a33f000000000000803f0000803f000000000000803f0000803f
-  m_CompressedMesh:
-    m_Vertices:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UV:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Normals:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Tangents:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Weights:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_NormalSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_TangentSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_FloatColors:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_BoneIndices:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Triangles:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UVInfo: 0
-  m_LocalAABB:
-    m_Center: {x: 0, y: 0.01, z: 0}
-    m_Extent: {x: 1.65, y: 0, z: 1.275}
-  m_MeshUsageFlags: 0
-  m_BakedConvexCollisionMesh: 
-  m_BakedTriangleCollisionMesh: 
-  m_MeshOptimized: 0
 --- !u!1 &696311979
 GameObject:
   m_ObjectHideFlags: 0
@@ -11249,7 +11249,7 @@ GameObject:
   - 4: {fileID: 702410677}
   - 198: {fileID: 702410679}
   - 199: {fileID: 702410678}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Spark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11323,7 +11323,7 @@ ParticleSystem:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 702410676}
   serializedVersion: 4
-  lengthInSec: 5
+  lengthInSec: 0.1
   startDelay:
     scalar: 0
     maxCurve:
@@ -11360,13 +11360,13 @@ ParticleSystem:
       m_RotationOrder: 4
     minMaxState: 0
   speed: 1
-  looping: 1
+  looping: 0
   prewarm: 0
   playOnAwake: 0
   moveWithTransform: 0
   autoRandomSeed: 1
   scalingMode: 2
-  randomSeed: 1232264275
+  randomSeed: 1311516987
   InitialModule:
     serializedVersion: 2
     enabled: 1
@@ -13040,7 +13040,7 @@ GameObject:
   - 4: {fileID: 715706274}
   - 198: {fileID: 715706276}
   - 199: {fileID: 715706275}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Spark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13114,7 +13114,7 @@ ParticleSystem:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 715706273}
   serializedVersion: 4
-  lengthInSec: 5
+  lengthInSec: 0.1
   startDelay:
     scalar: 0
     maxCurve:
@@ -13151,13 +13151,13 @@ ParticleSystem:
       m_RotationOrder: 4
     minMaxState: 0
   speed: 1
-  looping: 1
+  looping: 0
   prewarm: 0
   playOnAwake: 0
   moveWithTransform: 0
   autoRandomSeed: 1
   scalingMode: 2
-  randomSeed: 2062330086
+  randomSeed: -640297390
   InitialModule:
     serializedVersion: 2
     enabled: 1
@@ -14862,7 +14862,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 720091116}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: f_pinky.03.L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14987,7 +14987,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 722324996}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: thumb.03.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15397,7 +15397,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 746519975}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: thumb.02.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15946,7 +15946,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 772395008}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: forearm.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16495,7 +16495,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 813498565}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: f_middle.03.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18779,7 +18779,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 968698646}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: f_pinky.02.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18841,7 +18841,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 975425135}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: f_ring.02.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19221,7 +19221,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1011306563}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: f_pinky.01.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19537,7 +19537,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1021332721}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: f_ring.03.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19885,7 +19885,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1038735965}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: hand.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20394,7 +20394,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1082709389}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: MissileLauncher
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20521,7 +20521,7 @@ GameObject:
   - 4: {fileID: 1111225344}
   - 33: {fileID: 1111225346}
   - 23: {fileID: 1111225345}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: LEFT_1_CLAW
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20717,7 +20717,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1130571124}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: f_middle.01.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20748,7 +20748,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1135121200}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: f_index.03.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20969,7 +20969,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1142992915}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: f_ring.02.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21032,7 +21032,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1144670629}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: f_pinky.02.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21063,7 +21063,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1148365877}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: thumb.01.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22110,7 +22110,7 @@ GameObject:
   - 4: {fileID: 1227162517}
   - 33: {fileID: 1227162519}
   - 23: {fileID: 1227162518}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: LEFT_2_CLAW
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22178,7 +22178,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1227457244}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: thumb.02.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22365,7 +22365,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1265336039}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: f_ring.01.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22643,7 +22643,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1290490969}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: MissileLauncher
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23175,8 +23175,8 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1342382918}
-  m_Layer: 0
-  m_Name: LClaw
+  m_Layer: 10
+  m_Name: LSupport
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23748,7 +23748,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1399086041}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: thumb.01.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24193,7 +24193,7 @@ GameObject:
   - 4: {fileID: 1423933260}
   - 33: {fileID: 1423933262}
   - 23: {fileID: 1423933261}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: LEFT_HAND
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24356,7 +24356,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1432878745}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: f_index.03.L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24386,7 +24386,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1438450799}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: palm.03.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24672,7 +24672,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1477766696}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: palm.02.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26418,7 +26418,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1588663392}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: f_middle.03.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27249,7 +27249,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1637468241}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: f_pinky.01.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28344,7 +28344,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1696208125}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: f_pinky.03.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29451,6 +29451,35 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1742164235}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!21 &1743954582
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Sprites/Default
+  m_Shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: PixelSnap
+      second: 0
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1745760037
 GameObject:
   m_ObjectHideFlags: 0
@@ -29682,7 +29711,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1764484991}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: f_index.01.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29704,35 +29733,6 @@ Transform:
   - {fileID: 408999218}
   m_Father: {fileID: 55724030}
   m_RootOrder: 0
---- !u!21 &1767561433
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: Sprites/Default
-  m_Shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 5
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  m_SavedProperties:
-    serializedVersion: 2
-    m_TexEnvs:
-    - first:
-        name: _MainTex
-      second:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - first:
-        name: PixelSnap
-      second: 0
-    m_Colors:
-    - first:
-        name: _Color
-      second: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1767749292
 GameObject:
   m_ObjectHideFlags: 0
@@ -30158,8 +30158,8 @@ GameObject:
   - 23: {fileID: 1787520541}
   - 95: {fileID: 1787520542}
   - 114: {fileID: 1787520544}
-  m_Layer: 0
-  m_Name: Sphere
+  m_Layer: 10
+  m_Name: RClaw
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30457,7 +30457,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1800683105}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: f_ring.03.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30521,7 +30521,7 @@ GameObject:
   - 4: {fileID: 1804107841}
   - 33: {fileID: 1804107843}
   - 23: {fileID: 1804107842}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: FORE_ARM
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30684,7 +30684,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1817520109}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: f_ring.03.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30810,7 +30810,7 @@ GameObject:
   - 4: {fileID: 1821956879}
   - 198: {fileID: 1821956881}
   - 199: {fileID: 1821956880}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Sparks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30883,7 +30883,7 @@ ParticleSystem:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1821956878}
   serializedVersion: 4
-  lengthInSec: 5
+  lengthInSec: 0.1
   startDelay:
     scalar: 0
     maxCurve:
@@ -30920,13 +30920,13 @@ ParticleSystem:
       m_RotationOrder: 4
     minMaxState: 0
   speed: 1
-  looping: 1
+  looping: 0
   prewarm: 0
   playOnAwake: 0
   moveWithTransform: 0
   autoRandomSeed: 1
   scalingMode: 2
-  randomSeed: -912944346
+  randomSeed: 1172816463
   InitialModule:
     serializedVersion: 2
     enabled: 1
@@ -32599,7 +32599,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1829818014}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: f_pinky.03.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32947,7 +32947,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1866553297}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: f_pinky.03.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32978,7 +32978,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1881127212}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: palm.02.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33105,11 +33105,11 @@ Prefab:
     - target: {fileID: 3380982, guid: 4d293c8e162f3874b982baadd71153d2, type: 2}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 691627356}
+      objectReference: {fileID: 493186119}
     - target: {fileID: 2348914, guid: 4d293c8e162f3874b982baadd71153d2, type: 2}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 1767561433}
+      objectReference: {fileID: 1743954582}
     - target: {fileID: 2082592, guid: 4d293c8e162f3874b982baadd71153d2, type: 2}
       propertyPath: m_CullingMask.m_Bits
       value: 4294967295
@@ -34331,7 +34331,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1969657049}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ForeArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34868,7 +34868,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1992972760}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: f_index.01.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34899,7 +34899,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1995179702}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: thumb.03.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35154,7 +35154,7 @@ GameObject:
   - 4: {fileID: 2027356415}
   - 33: {fileID: 2027356417}
   - 23: {fileID: 2027356416}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: LEFT_1_CLAW
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36718,7 +36718,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 2109026076}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: f_ring.03.L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37002,7 +37002,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 2126565554}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: f_middle.02.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}

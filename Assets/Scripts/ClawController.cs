@@ -68,7 +68,7 @@ public class ClawController : MonoBehaviour {
     }
 
     private void Shoot() {
-        Instantiate(MissilePrefab, MissileSpawn);
+        Instantiate(MissilePrefab, MissileSpawn.position, Quaternion.LookRotation(transform.forward, transform.up));
         _shootCd = ShootCooldown;
     }
 
@@ -92,7 +92,8 @@ public class ClawController : MonoBehaviour {
     public void DoSpark() {
         SparkleParticle.Stop();
         SparkleParticle.Play(true);
-        StartCoroutine(LongVibration(100, 0.7f));
+        StartCoroutine(LongVibration(0.1f, 0.7f));
+        
     }
 
     IEnumerator LongVibration(float length, float strength) {
