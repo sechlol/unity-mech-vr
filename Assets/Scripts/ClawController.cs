@@ -4,15 +4,18 @@ using System;
 
 public class ClawController : MonoBehaviour {
 
+    public Transform MissileSpawn;
     public ParticleSystem SparkleParticle;
     public ParticleSystem ChargeParticlePrefab;
     public GameObject MissilePrefab;
+    public float ShootCooldown = 1.0f;
 
     private SteamVR_Controller.Device Device;
     private SteamVR_TrackedObject TrackedObj;
     private Animator _anim;
     private bool _rotate = false;
     private float _rotSpeed = 0;
+    private float _shootCd = 0;
     public float MaxRotSpeed = 10f;
 
     public Valve.VR.EVRButtonId ShootBtn = Valve.VR.EVRButtonId.k_EButton_SteamVR_Trigger;
@@ -24,8 +27,7 @@ public class ClawController : MonoBehaviour {
     }
 
 
-    public void SetController(SteamVR_TrackedObject obj)
-    {
+    public void SetController(SteamVR_TrackedObject obj) {
         TrackedObj = obj;
         StartCoroutine(Pulse());
     }
@@ -39,8 +41,10 @@ public class ClawController : MonoBehaviour {
         if (Device == null || !Device.valid)
             return;
 
-        if (Device.GetPressDown(ShootBtn))
+        if (Device.GetPressDown(ShootBtn) && _shootCd == 0)
             Shoot();
+        else
+            _shootCd = Mathf.Clamp(_shootCd - Time.deltaTime, 0, _shootCd);
 
         if (Device.GetPressDown(ClampBtn))
             _anim.SetBool("Clamp", true);
@@ -63,19 +67,17 @@ public class ClawController : MonoBehaviour {
         _anim.transform.Rotate(Vector3.forward, _rotSpeed);
     }
 
-    private void Shoot()
-    {
-        Debug.Log("PEW PEW");
+    private void Shoot() {
+        Instantiate(MissilePrefab, MissileSpawn);
+        _shootCd = ShootCooldown;
     }
 
-    private IEnumerator Pulse(){
+    private IEnumerator Pulse() {
         ushort pulseDuration = 0;
         float pulseInterval = 0;
 
-        while (true)
-        {
-            if (_rotSpeed > 1f && Device != null && Device.valid)
-            {
+        while (true) {
+            if (_rotSpeed > 1f && Device != null && Device.valid) {
                 pulseDuration = (ushort)(Mathf.Lerp(200, 3999, _rotSpeed / MaxRotSpeed));
                 pulseInterval = Mathf.Lerp(100, 1, _rotSpeed / MaxRotSpeed) * 0.001f;
 
@@ -87,20 +89,22 @@ public class ClawController : MonoBehaviour {
         }
     }
 
-    IEnumerator LongVibration(float length, float strength)
-    {
-        for (float i = 0; i < length; i += Time.deltaTime)
-        {
+    public void DoSpark() {
+        SparkleParticle.Stop();
+        SparkleParticle.Play(true);
+        StartCoroutine(LongVibration(100, 0.7f));
+    }
+
+    IEnumerator LongVibration(float length, float strength) {
+        for (float i = 0; i < length; i += Time.deltaTime) {
             Device.TriggerHapticPulse((ushort)Mathf.Lerp(0, 3999, strength));
             yield return null;
         }
     }
 
-    IEnumerator LongVibration(int vibrationCount, float vibrationLength, float gapLength, float strength)
-    {
+    IEnumerator LongVibration(int vibrationCount, float vibrationLength, float gapLength, float strength) {
         strength = Mathf.Clamp01(strength);
-        for (int i = 0; i < vibrationCount; i++)
-        {
+        for (int i = 0; i < vibrationCount; i++) {
             if (i != 0) yield return new WaitForSeconds(gapLength);
             yield return StartCoroutine(LongVibration(vibrationLength, strength));
         }
